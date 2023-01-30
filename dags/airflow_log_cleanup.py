@@ -16,7 +16,7 @@ tags = ['log_cleanup']
 # Loading airflow parameters from env variables
 airflow_config_path = os.environ.get('AIRFLOW_CONFIG_PAHT')
 
-# Abrindo arquivos Json de propriedades
+# Loading JSON properties
 dag_config = utils.open_json_file('{}/config/dag_config.json'.format(airflow_config_path))
 dag_args = dag_config['default_args']
 
@@ -25,8 +25,7 @@ try:
 except Exception as e:
     BASE_LOG_FOLDER = conf.get("logging", "BASE_LOG_FOLDER").rstrip("/")
 
-# Quantidade de dias que os logs serão retidos
-# Logs mais antigos que a quantidade definida serão apagados
+# Amount of days logs will be retained
 DEFAULT_MAX_LOG_AGE_IN_DAYS = 1
 ENABLE_DELETE = True
 NUMBER_OF_WORKERS = 1
