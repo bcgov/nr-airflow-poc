@@ -1,0 +1,13 @@
+{
+    "table_name": "SEEDLOT",
+    "primary_key": ["SEEDLOT_NUMBER"],
+    "columns":{        
+        "SEEDLOT_NUMBER": "VARCHAR2(5)",
+        "VEGETATION_CODE": "VARCHAR2(8)",
+        "GENETIC_CLASS_CODE": "VARCHAR2(1)",
+        "ENTRY_USERID": "VARCHAR2(30)",
+        "ENTRY_TIMESTAMP": "TIMESTAMP",
+        "UPDATE_USERID": "VARCHAR2(30)",
+        "UPDATE_TIMESTAMP": "TIMESTAMP"
+    }
+}
