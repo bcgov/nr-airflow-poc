@@ -1,0 +1,12 @@
+{
+    "table_name": "FOREST_CLIENT",
+    "primary_key": ["CLIENT_NUMBER"],
+    "columns":{        
+        "CLIENT_NUMBER": "VARCHAR2(8)",
+        "CLIENT_NAME": "VARCHAR2(30)",
+        "ENTRY_USERID": "VARCHAR2(30)",
+        "ENTRY_TIMESTAMP": "TIMESTAMP",
+        "UPDATE_USERID": "VARCHAR2(30)",
+        "UPDATE_TIMESTAMP": "TIMESTAMP"
+    }
+}

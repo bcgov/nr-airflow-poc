@@ -1,0 +1,13 @@
+{
+    "table_name": "SEEDLOT_OWNER_QUANTITY",
+    "primary_key": ["SEEDLOT_NUMBER", "CLIENT_NUMBER"],
+    "columns":{        
+        "SEEDLOT_NUMBER": "VARCHAR2(5)",
+        "CLIENT_NUMBER": "VARCHAR2(8)",
+        "QTY_RESERVED": "NUMBER(10, 2)",
+        "ENTRY_USERID": "VARCHAR2(30)",
+        "ENTRY_TIMESTAMP": "TIMESTAMP",
+        "UPDATE_USERID": "VARCHAR2(30)",
+        "UPDATE_TIMESTAMP": "TIMESTAMP"
+    }
+}

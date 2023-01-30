@@ -1,0 +1,5 @@
+cx_Oracle
+psycopg2
+sqlalchemy
+pandas
+apache-airflow

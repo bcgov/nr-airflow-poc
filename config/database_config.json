@@ -1,0 +1,18 @@
+{
+    "spar_oracle_dev":{
+        "type": "ORACLE",
+        "username": "spar_tst",
+        "password": "spar_tst",
+        "host": "0.0.0.0",
+        "port": "1521",
+        "service_name": "orclcdb"
+    },
+    "spar_postgres_dev":{
+        "type": "POSTGRES",
+        "username": "postgres",
+        "password": "postgres",
+        "host": "0.0.0.0",
+        "port": "5432",
+        "database": "postgres"
+    }
+}

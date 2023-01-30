@@ -1,0 +1,13 @@
+{
+    "default_args":{
+        "owner":"SPAR",
+        "catchup":"False",
+        "depends_on_past":"False",
+        "retries":0,
+        "retry_delay_seconds":120,
+        "max_active_runs":1,
+        "max_active_tasks":5,
+        "email_on_failure": "False",
+        "email": "spar@spar.com"
+    }
+}
